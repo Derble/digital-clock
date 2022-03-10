@@ -1,0 +1,79 @@
+/* style.css for digital clock */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body {
+    background: black;
+    color: #ffffff;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button {
+    background: #000000;
+    color: white;
+    font-size: 2rem;
+    padding: 5px 15px 5px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 3px 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 3px 3px #333333;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(77, 75, 75) 100%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    /* background-color: #333333; */
+}
+
+button:hover {
+    background: #555555;
+}
+
+.container {
+    padding: 50px;
+    height: 100vh;
+}
+
+.clock {
+    font-family: 'Space Mono', monospace;
+    font-size: 8rem;
+    box-shadow: 0 0 20px rgb(202, 200, 200);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(77, 75, 75) 100%);
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    color: #00ff3c;
+    text-align: center;
+    margin-bottom: 100px;
+    /*-webkit-box-reflect: below 14px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));*/
+}
+
+/* #timeSelection {
+    display: inline-block;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgb(202, 200, 200);
+    border-radius: 20px;
+}
+
+#backgroundColorSelection {
+    display: inline-block;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgb(202, 200, 200);
+    border-radius: 20px;
+}
+
+#fullThemeSelection {
+    display: inline-block;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgb(202, 200, 200);
+    border-radius: 20px;
+} */
